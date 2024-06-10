@@ -1,60 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil de Marcus</title>
-
-    <style>
-        img {
-            width: 200px;
-            height: 350px;
-        }
-
-        .contenido{
-            background:linear-gradient(60deg,rgb(175, 6, 236),red);
-            margin: 10px;
-            padding: 10px;
-            color: white;
-        }
-
-        .rounded {
-            border-radius: 5px;
-
-        }
-    </style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil de usuario</title>
 </head>
-<body style="background-color: beige;">
+<body>
+  <section class="perfil de usuario">
+    <div class="contenedor-perfil">
+      <div class="portada-perfil">
+        <div class="avatar_perfil"> <img src="https://media.istockphoto.com/id/694084532/photo/marcus-aurelius-emperor-of-rome.jpg?s=612x612&w=is&k=20&c=zfP5tuerDNwtCE1D2CR2GGZkswjrlGMJXpb9lfm2AZ4=" alt="foto de perfil"> </div>
+        <div class="datos-de-perfil">
+          <h4 class="nombre-de-usuario">Marcus Aurelius</h4>
+          <h3 class="user">@Marcus.Aurelius.spqr</h3>
+          <ul class="datos-usuario">
+            <li>
+              <h3>🏛 Emperador romano</h3>
+            </li>
+            <li>
+              <h3>🦉 Me interesa la filosofia, estoicismo.</h3>
+            </li>
+            <li>
+              <h3>⚔ Victoria contra los barbaros del norte</h3>
+            </li>
+            <li>
+              <h3>📖Meditaciones</h3>
+            </li>
+          </ul>
+          <ul class="etiquetas-favoritos">
+            <li><a href="http://www.google.com/">#Roma</li></a>
+            <li><a href="http://www.google.com/">#MareNostrum</li></a>
+            <li><a href="http://www.google.com/">#SPQR</li></a>
+            <li><a href="http://www.google.com/">#Estoicismo</li></a>
+            <li><a href="http://www.google.com/">#Eudaimonia</li></a>
+          </ul>
+        </div>
 
-    <h1>Marcus Aurelius</h1>
+      </div>
+    </div>
+  </section>
+  <section class="contenedor-cuerpo">
+    <table class="top-favoritos">
+      <tr>
+        <th class="top-destinos">
+          <h3>TOP DESTINOS</h3>
+        </th>
+      </tr>
+      <tr>
+        <td>1. Hispania</td>
+      </tr>
+      <tr>
+        <td>2. Germania</td>
+      </tr>
+      <tr>
+        <td>3. Aegyptus</td>
+      </tr>
+      <tr>
+        <td>4. Galia</td>
+      </tr>
+      <tr>
+        <td>5. Asia</td>
+      </tr>
+    </table>
 
-  <span class="contenido rounded">
-contenido 1
-  </span>
-
-  <div class="contenido rounded">
-contenido 2
-  </div>
-
-  <div class="contenido rounded">
-    Foto Foto Foto
-    Foto Foto Foto
-Foto Foto Foto
-    Foto Foto Foto
-
-  </div>
-
-  <div id="miFooter" class="rounded">
-    Fooder
-
-  </div>
-   
-   
-    
-
-
-    
-    
+    <div class="galeria-fotos">
+      <div class="column">
+        <div class="imagen"><img src="https://media.istockphoto.com/id/1080555444/photo/open-book-title-page-marcus-aurelius-meditations.jpg?s=612x612&w=is&k=20&c=oKYEstQeaFLm51mnPULOaz_w9cHXpfnfnbqzhzPtuCs=" alt="foto-libro-meditaciones"></div>
+        <div class="imagen"><img src="https://media.istockphoto.com/id/1211206415/photo/marcus-aurelius-column.jpg?s=612x612&w=is&k=20&c=G7r6yTKK06IGYVYsB99tvYdPyk3Gj4yamjW_JUIFxto=" alt="foto-columna"></div>
+        <div class="imagen"><img src="https://media.istockphoto.com/id/1728357822/photo/roman-standard.jpg?s=612x612&w=is&k=20&c=2HP4l3oktGYTYGinhk46dR-goYShTW1YMUjcWFLpSVM=" alt="foto-spqr"></div>
+       </div>
+       <div class="column">
+        <div class="imagen"><img src="https://media.istockphoto.com/id/1285889724/photo/fragment-of-an-old-map.jpg?s=612x612&w=is&k=20&c=55mnjUuhcBFrd-q_34wqwSB3AwzVYCPm-YJfppXqZww=" alt="foto-mapa"></div>
+        <div class="imagen"><img src="https://media.istockphoto.com/id/2098503666/photo/ancient-romans-battle.jpg?s=612x612&w=is&k=20&c=1xCEEXBk1oGruPf7onnj1KJl7PWFjULNAlJh3UlTguk=" alt="foto-batalla"></div>
+        <div class="imagen"><img src="https://www.istockphoto.com/photo/ancient-roman-soldier-gm1142688603-306603589" alt="foto-soldado"></div>
+    </div>
+    <div class="column">
+      <div class="imagen"><img src="https://media.istockphoto.com/id/1697871085/photo/mighty-and-powerful-god-of-the-sea-oceans-and-water-neptune-black-and-white-image-copy-space.jpg?s=612x612&w=is&k=20&c=QJPdu4Dlt2-hUbZkCB30tvSI0R4CNAWZOPhGWnJkt2o=" alt="foto-neptuno"></div>
+      <div class="imagen"><img src="https://media.istockphoto.com/id/1438179813/photo/ancient-roman-silver-denarius-coin-of-emperor-marcus-aurelius.jpg?s=612x612&w=is&k=20&c=0x4iA22Os3CE855dEqdeHe4U5Gv9yxDj0nq1bXzazIM=" alt="foto-moneda"></div>
+      <div class="imagen"><img src="https://media.istockphoto.com/id/1146611454/photo/pheasant-in-ancient-roman-mosaic-of-mount-nebo-jordan.jpg?s=612x612&w=is&k=20&c=DOVQT_Q4tU-voRZrSn8u0VjC629rV3k-lt3nrcP0qDE=" alt="foto-mosaico"></div>
+  </section>
 </body>
 </html>
