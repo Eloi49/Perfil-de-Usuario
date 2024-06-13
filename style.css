@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    line-height: 1.4;
+
+}
+
+body {
+    color: #404040;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(81, 110, 77) rgb(234, 169, 49));
+}
+
+.perfil-de-usuario .portada-perfil {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: top, center;
+    position: relative;
+    height: 20rem;
+    margin-top: 15px;    
+    margin-bottom: .5rem; 
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur (10px);
+    min-width: 300px;
+
+
+}
+
+.perfil-de-usuario {
+    max-width: 200px;
+    width: 90%;
+    padding: 40px 0;
+    margin: auto;
+}
+
+.perfil-de-usuario .avatar-perfil {
+    display: flex;
+    width: 220px;
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #FFFFFF;
+    box-shadow: 1px, 1px, 0px #fcb531, 3px 3px 0px #a37c13;
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+
+.perfil-de-usuario img {
+    width: 120%;
+    height: 120%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    object-fit: cover;
+
+}
+
+
+
+.perfil-de-usuario .datos-de-perfil {
+    display: inline-block;
+    height: auto;
+    width: calc(100% - 230px - 8rem);
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0. .2);
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 30rem;
+    margin-top: 30rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.perfil-de-usuario .nombre-de-usuario {
+    font-size: 2.3rem;
+    white-space: nowrap;
+    margin-bottom: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 0px #fcb531,
+    3px 3px 0px #a37c13;
+
+}
+
+.datos-basicos li {
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.user {
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+
+}
+
+.perfil-de-usuario .etiquetas-favoritos li {
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 1rem;
+
+}
+
+.nombre-galeria {
+    margin-bottom: 2rem;
+
+}
+
+.contenedor-cuero {
+    max-width: 2000px;
+    width: 90%;
+    padding: 40px 0;
+    margin: auto;
+
+}
+
+.top-favoritos {
+
+    display: flex;
+    text-align: left;
+    float: left;
+    margin: auto;
+    padding: 15px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .2);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur (10px);
+
+
+}
+
+.top-destinos {
+    color: white;
+    text-shadow: 1px 1px 0px #fcb531,
+    3px 3px 0px #a37c13;
+
+}
+
+.contenedor-cuero .galeria-fotos {
+    display: flex;
+    gap: 20px;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    
+}
